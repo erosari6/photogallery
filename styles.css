@@ -1,9 +1,53 @@
+@media screen and (min-width:485px){
+    #gallery section {
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+    }
+    nav ul{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        list-style-type: none;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        justify-content: center;
+        }
+}
+
+@media screen and (min-width:880px){
+    #gallery section {
+        display: grid;
+        grid-template-columns: auto auto;
+        position: relative;
+    }
+    nav ul{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        list-style-type: none;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        justify-content: center;
+        }
+}
+
+
 @media screen and (min-width:1300px){
     #gallery section {
         display: grid;
         grid-template-columns: auto auto auto;
         position: relative;
     }
+    nav ul{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        list-style-type: none;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        justify-content: right;
+        }
 }
 * {
     max-width: 1300px;
@@ -30,15 +74,16 @@ h1 {
 h1, h2 {
     text-transform: uppercase;
 }
- nav ul{
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
-    list-style-type: none;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-    justify-content: right;
-    }
+/*
+nav ul{
+text-align: center;
+display: grid;
+grid-template-columns: repeat(3, auto);
+list-style-type: none;
+text-transform: uppercase;
+margin-bottom: 10px;
+justify-content: right;
+} */
 nav a {
     font-size: 1.5em;
     margin: 10px;
