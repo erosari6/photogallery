@@ -1,5 +1,5 @@
 @media screen and (min-width:485px){
-    #gallery section {
+    #gallery div {
         display: grid;
         grid-template-columns: auto;
         position: relative;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (min-width:880px){
-    #gallery section {
+    #gallery div {
         display: grid;
         grid-template-columns: auto auto;
         position: relative;
@@ -34,7 +34,7 @@
 
 
 @media screen and (min-width:1300px){
-    #gallery section {
+    #gallery div {
         display: grid;
         grid-template-columns: auto auto auto;
         position: relative;
